@@ -43,7 +43,7 @@ ProxyCommand $PXYCMD
 Host ece.campus
 Hostname $HOST
 
-Host cmu ece
+Host cmu ece ece.campus
 ForwardX11 yes
 ForwardX11Trusted yes
 Compression yes
@@ -61,7 +61,7 @@ ProxyCommand $PXYCMD
 Host ece.campus
 Hostname $HOST
 
-Host cmu ece
+Host cmu ece ece.campus
 ForwardX11 yes
 ForwardX11Trusted yes
 Compression yes
